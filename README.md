@@ -11,11 +11,12 @@ The datasets are heavily imbalanced with the Casual images overwhelmingly domina
 
 Data augmentation is used to improve the number of images from the underrepresented classes. The techniques used in data augmentation include rotating the image, shearing to distort the image, flipping the image horizontally and filling the generated pixels during transformation.
 ![image](https://github.com/user-attachments/assets/37f11c10-07c6-47ee-9b32-089efe915ae0)
+
 Balancing the dataset resulted in equal numbers from each class which prevents the model from specifically training on casual clothing and failing to classify underrepresented clothing types.
 
 # Visualisation
 GRAD-CAM produces a heatmap to highlight different regions of the image that the model identifies as important for image classification. 
-![image](https://github.com/user-attachments/assets/affc9533-7937-443d-bc62-32db83a20839)
+![image](https://github.com/user-attachments/assets/711c2401-c0f8-4578-b01a-daf164352d1e)
 
 
 Dataset Source
